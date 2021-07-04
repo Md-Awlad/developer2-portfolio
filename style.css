@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+*{
+	padding:0;
+	margin:0;
+}
+body{font-size:16px; font-family: 'Lato', sans-serif;line-height:25px}
+h1,h2,h3,h4,h5,h6{font-family: 'Lato', sans-serif;}
+	p{font-family:arial}
+img{max-width:100%}
+
+header#mainheader {
+    display: block;
+}
+
+.topheader {
+    display: block;
+    overflow: hidden;
+    background: #555;
+    padding: 10px 0px;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.topleftinfo {width: 550px;float: left;}
+
+.toprightlinks {
+    width: 550px;
+    right: 80px;
+    top: 5px;
+    position: absolute;
+}
+
+
+
+.topleftinfo ul { list-style:none; float:left}
+.topleftinfo ul li {
+    float: left;
+    display: block;
+}
+
+.topleftinfo ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-right: 10px;
+    font-size: 15px;
+    font-family: arial;
+}
+
+.topleftinfo ul li a i {
+    margin-right: 5px;
+}
+
+
+
+
+
+.toprightlinks ul { list-style:none; float:right;}
+.toprightlinks ul li {
+    float: left;
+    display: block;
+}
+
+.toprightlinks ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-right: 10px;
+    font-size: 15px;
+    font-family: arial;
+}
+
+.toprightlinks ul li a i {
+    margin-right: 5px;
+}
+
+
+
+.toprightlinks ul { list-style:none; float:right;}
+.toprightlinks ul li {
+    float: left;
+    display: block;
+}
+
+.toprightlinks ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-right: 10px;
+    font-size: 15px;
+    font-family: arial;
+}
+
+.toprightlinks ul li a i {
+    margin-right: 5px;
+}
+
+
+
+.logopsition {
+    width: 100%;
+    display: block;
+    padding: 15px 0px;
+}
+
+.leftlogo {
+    width: 134px;
+    float: left;
+}
+
+.rightboxes {
+    width: 1034px;
+    overflow: hidden;
+}
+
+.rbinner {
+    float: right;
+}
+
+.rightboxes div.boxcontainer {
+    float: left;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+.boxcontainer a {
+    text-decoration: none;
+    display: block;
+}
+
+.rightboxes div.boxcontainer:last-child {
+    background: #ff9900bf;
+}
+menu.primrymenu {
+    background: #030e56;
+    width: 100%;
+    display: block;
+}
+
+
+.img{
+	width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    background:#030e56;
+    display: table;
+    width: 100%;
+}
+
+.navbar ul {
+    list-style: none;
+	
+}
+
+.navbar ul li {
+    float: left;
+    position: relative;
+	
+}
+
+.navbar ul li a {
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    font-family: arial;
+}
+
+.navbar ul li :hover{background:black;color:white;}
+
+
+.dropdown {
+    display: inline;
+    position: relative;
+}
+.navbar ul li .dropdown-menu li{float:none;position:relative}
+.dropdown-menu {
+    position: absolute;
+    background: darkblue;
+	width:188px;
+	display:none;
+	opacity:0.6;
+
+   
+}
+
+
+.navbar ul li:hover div.dropdown-menu{display:block}
+
+
+
+
+.shanto {
+    display: inline;
+    position: relative;
+    float: left;
+	
+}
+
+.shanto-menu {
+    position: absolute;
+    background:darkblue;
+    display: none;
+    width: 166px;
+    top: 0;
+    left: 188px;
+	opacity:0.9;
+	
+}
+.dropdown ul li:hover div.shanto-menu{display:block}
+
+
+section#services {
+    padding: 30px 0px;
+}
+
+
+.sectiontitle h1 {
+    font-size: 40px;
+    font-weight: 900;
+    display: inline;
+    border-right: 3px solid orange;
+    border-left: 3px solid orange;
+    padding: 0px 10px;
+}
+
+.sectiontitle {
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+
+
+
+#services div.box-single {
+    width: 260px;
+    float: left;
+    text-align: justify;
+    font-size: 14px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+	color:white;
+}
+
+#services div.box-icon {
+    font-size: 40px;
+	text-align:center;
+    color: white;
+    border: 15px solid white;
+    padding: 10px;
+	margin:auto;
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    border-radius: 100%;
+	transition:1s;
+}
+#services div.box-icon i{transition:0.5s}
+#services div.box-desc {
+    margin-top: 20px;
+	text-align:center;
+}
+
+#services div.box-readmore {
+    text-align: center;
+    margin-top: 15px;
+}
+#services div.box-readmore h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+	color:black;
+	font-family:arial black;
+}
+#services div.box-single-inner {
+    background: orange;
+    padding: 13px;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 0px 7px 9px -3px darkgrey;
+	position:relative;
+	cursor:pointer;
+	transition:1s;
+}
+
+
+.borderLeftHover {
+    height: 150px;
+    width: 5px;
+    background: black;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+	transform:scaleY(0);
+	transform-orange:top;
+	transition:1s;
+}
+
+.borderRightHover {
+    height: 150px;
+    width: 5px;
+    background: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+	transform:scaleY(0);
+	transform-orange:bottom;
+	transition:1s;
+}
+
+#services div.box-single-inner:hover div.borderLeftHover{transform:scaleY(1)}
+#services div.box-single-inner:hover div.borderRightHover{transform:scaleY(1)}
+
+
+#services div.box-single-inner:hover div.box-icon{border-color:black}
+
+#services div.box-single-inner:hover div.box-icon i{transform:scale(0.6)}
+
+#services div.box-single-inner:hover {transform: translateY(10px)}
+.
+
+.awlad{background:red;color:white;text-align:center}
+
+
+
+
+   
+.text {
+    background: #00000091;
+    color: white;
+    width: 719px;
+    height: 218px;
+    font-size: 28px;
+    border-radius: 5px;
+    position: absolute;
+    padding: 10px;
+    left: 100px;
+    bottom: -60px;
+    z-index: 2;
+    opacity: 0;
+    transition: 1s;
+}
+
+.text h1 {
+    padding: 10px;
+    margin: auto;
+    font-size: 40px;
+    position: relative;
+    top: 15px;
+    transition: 1s;
+    opacity: 0;
+}
+.text span {
+    padding: 10px;
+    margin: auto;
+    font-size: 22px;
+	font-weight:200px;
+	font-family:arial;
+    position: absolute;
+    top: 90px;
+    transition: 1s;
+    opacity: 0;
+}
+
+
+.text:hover{opacity:1}
+
+.text:hover.text h1 {opacity: 1;}
+.text:hover.text span {opacity: 1;}
+
+
+
+button.load {
+	width: 100px;
+    height: 30px;
+    padding: 2px;
+    position: absolute;
+    left: 20px;
+    top:193px;
+    opacity: 0;
+    transition: 1s;
+}
+
+
+.text:hover button.load {
+    opacity: 1;
+}
+
+
+
+
+footer#footer {
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+div.footerInner{
+	 background: #333;
+    color: white;
+   
+	
+}
+
+
+.fboxsingel {
+    float: left;
+    width: 285px;
+    margin: 0px 3px;
+}
+
+
+
+.footerBoxContent ul {
+    list-style: none;
+}
+
+.footerBoxContent ul li {
+    line-height: 28px;
+}
+
+.footerBoxContent ul li a {
+    color:  #a58f67;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footerBoxContent ul li a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.fboxsingel h3 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #5f5555;
+    padding-bottom: 7px;
+}
+
+.footerBoxes p {
+    font-size: 14px;
+}
+
+.footerInner {
+	overflow:hidden;
+	padding:50px;
+    
+}
+
+
+
+.footer-copyright {
+    background: black;
+    padding: 15px 0px;
+    text-align: center;
+	color:white;
+}
+
+.footer-copyright a{text-decoration:none;}
+.footer-copyright a:hover{text-decoration:underline;color:orange}
+
+
+
+
+
+.abcomleft,.abcomright {
+    width: 500px;
+    float: left;
+    overflow:hidden;
+    margin-right:50px;
+    display: inline-block;
+    position: relative;
+    padding: 10px 15px;
+}
+
+
+
+.companycontentwrapper {
+    overflow: hidden;
+    padding: 15px 0px;
+}
+
+.box-wrapper {
+    overflow: hidden;
+}
+
+
+.aboutImgInner {
+    border: 4px solid #ddd;
+    border-radius: 5px;
+    box-shadow: -2px 2px 13px 0px black;
+}
+
+section#aboutcompany {
+    background: #ededed;
+}
+
+
+
+
+section.subscribe {
+    background: url(images.jpg);
+    background-attachment: fixed;
+    background-position: 100% 40%;
+	background-size:1400px;
+}
+
+.subsSectitle {
+	color: white;
+	text-align: center;
+	font-size: 32px;
+	overflow: hidden;
+	padding-top: 60px;
+	position:relative;
+	top:25px;
+	
+	}
+
+.subsSectitle h2 {
+    font-family: arial black;
+    margin-bottom: 100px;
+}
+
+.subscribebox {
+    text-align: center;
+    overflow: hidden;
+    width: 700px;
+    margin: auto;
+}
+
+.subscribebox input {
+    padding: 10px;
+    float: left;
+}
+
+input#subscibeEmail {
+    width: 560px;
+    margin: auto;
+    background: #00000047;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.subscribebox {
+    padding-bottom: 60px;
+}
+
+input#subssubmit {
+    background:transparent;
+    border: 2px solid orange;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-family: arial black;
+    cursor: pointer;
+}
+
+
+input#subssubmit:hover {
+    background: orange;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    font-family: arial black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.abcomleft img {
+    border: 6px solid orange;
+    box-shadow: 1px 1px 1px black;
+}
+
+.abcomleft img {
+    border: 6px solid orange;
+    box-shadow: 1px 1px 1px black;
+    
+}
+
+*/
+
+
+
+
+
+
+
+
